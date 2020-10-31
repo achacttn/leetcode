@@ -30,3 +30,4 @@ def likes2(names):
     }[min(4, n)].format(*names[:3], others=n-2)
 
 # test1
+# test2
