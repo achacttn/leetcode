@@ -28,3 +28,5 @@ def likes2(names):
         3: '{}, {} and {} like this', 
         4: '{}, {} and {others} others like this'
     }[min(4, n)].format(*names[:3], others=n-2)
+
+# test1
